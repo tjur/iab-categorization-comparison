@@ -1,0 +1,325 @@
+Campaign: Premium Laptops Sale
+Description: This campaign advertises premium and latest model laptops for technology enthusiasts and professionals.
+Keywords: ['buy laptops', 'premium laptops', 'best laptops', 'new laptops', 'high performance laptops', 'gaming laptops', 'ultrabooks', 'laptop deals', 'laptop online', 'business laptops']
+
+SBERT categories:
+['Technology & Computing: Web Search', 'Technology & Computing: PC Support', 'Technology & Computing: Windows', 'Technology & Computing: Portable']
+
+Mixed BERT categories:
+['Technology & Computing, Portable', 'Technology & Computing, Palmtops/PDAs', 'Technology & Computing, Computer Reviews', 'Technology & Computing, Computer Peripherals', 'Technology & Computing, Computer Networking']
+
+Multi-label IAB classifier categories:
+['tech', 'business', 'hobbies', 'autos', 'education']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Technology & Computing', 'Technology & Computing: Computer Hardware', 'Technology & Computing: Desktop Video', 'Technology & Computing: Computer Reviews', 'Technology & Computing: Computer Peripherals']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Technology & Computing: Portable', 'Shopping']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Technology & Computing: Portable', 'Technology & Computing: Computer Peripherals', 'Technology & Computing: Entertainment', 'Technology & Computing: Internet Technology', 'Technology & Computing: Computer Reviews']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Technology & Computing: Portable', 'Technology & Computing: Windows', 'Technology & Computing: Computer Reviews']
+
+====================================================================================================
+Campaign: Organic Skincare Products
+Description: This campaign promotes organic, chemical-free skincare products targeting health-conscious customers.
+Keywords: ['organic skincare', 'natural face cream', 'organic moisturizer', 'chemical free skincare', 'herbal face mask', 'natural body lotion', 'vegan skincare', 'eco friendly cosmetics', 'organic sunscreen']
+
+SBERT categories:
+['Food & Drink: Vegan', 'Health & Fitness: Dermatology', 'Food & Drink', 'Style & Fashion: Accessories', 'Food & Drink: Desserts & Baking']
+
+Mixed BERT categories:
+['Health & Fitness, Dermatology', 'Style & Fashion, Beauty', 'Travel, Spas', 'Health & Fitness, Nutrition', 'Style & Fashion, Body Art']
+
+Multi-label IAB classifier categories:
+['business', 'food', 'fashion', 'tech', 'hobbies']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Health & Fitness: Beauty', 'Style & Fashion: Beauty', 'Food & Drink: Health/Lowfat Cooking']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Style & Fashion: Beauty', 'Health & Fitness: Dermatology']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Health & Fitness: Dermatology', 'Health & Fitness: Herbs for Health']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Style & Fashion: Beauty', 'Health & Fitness: Dermatology', 'Health & Fitness: Herbs for Health', 'Health & Fitness: Alternative Medicine']
+
+====================================================================================================
+Campaign: Home Fitness Equipment
+Description: This campaign advertises a range of fitness equipment for home workouts.
+Keywords: ['home gym equipment', 'buy treadmill', 'workout dumbbells', 'resistance bands', 'fitness equipment online', 'exercise bike', 'pull up bar', 'yoga mats', 'fitness accessories']
+
+SBERT categories:
+['Sports: Bodybuilding', 'Health & Fitness: Exercise', 'Health & Fitness: Physical Therapy', 'Health & Fitness', 'Health & Fitness: Alternative Medicine']
+
+Mixed BERT categories:
+['Sports, Waterski/Wakeboard', 'Home & Garden, Home Repair', 'Travel, Budget Travel', 'Health & Fitness, Exercise', 'Sports, Surfing/Body-Boarding']
+
+Multi-label IAB classifier categories:
+['sports', 'health', 'tech', 'business', 'news']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Hobbies & Interests: Fitness', 'Health & Fitness: Exercise', 'Health & Fitness: Fitness Equipment', 'Health & Fitness: Wellness', 'Health & Fitness: Weight Loss']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Health & Fitness: Exercise', 'Health & Fitness', 'Shopping']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Health & Fitness: Exercise', 'Health & Fitness: Physical Therapy', 'Health & Fitness: Weight Loss', 'Health & Fitness: Alternative Medicine', 'Sports']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Sports: Running/Jogging', 'Sports: Bodybuilding', 'Health & Fitness: Exercise', 'Health & Fitness: Weight Loss', 'Health & Fitness']
+
+====================================================================================================
+Campaign: Pet Food and Accessories
+Description: This campaign promotes high-quality pet food, toys, and accessories for dogs and cats.
+Keywords: ['dog food', 'cat food', 'pet toys', 'pet accessories', 'healthy pet treats', 'dog collars', 'cat litter', 'pet grooming', 'pet supplies online', 'pet beds']
+
+SBERT categories:
+['Pets: Dogs', 'Pets: Cats', 'Pets', 'Food & Drink', 'Shopping: Contests & Freebies']
+
+Mixed BERT categories:
+['Pets, Large Animals', 'Pets, Veterinary Medicine', 'Pets, Dogs', 'Pets, Cats', 'Pets, Reptiles']
+
+Multi-label IAB classifier categories:
+['hobbies', 'tech', 'education', 'animals', 'business']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Pets', 'Health & Fitness: Pet Health', 'Pets: Cats', 'Pets: Dogs', 'Pets: Accessories']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Pets: Dogs', 'Pets: Cats', 'Pets']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Pets', 'Pets: Dogs', 'Pets: Cats', 'Pets: Veterinary Medicine', 'Pets: Aquariums']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Pets: Dogs', 'Pets: Cats', 'Food & Drink', 'Pets', 'Home & Garden']
+
+====================================================================================================
+Campaign: Custom T-Shirt Printing
+Description: This campaign advertises custom t-shirt printing services for events and personal use.
+Keywords: ['custom t shirts', 't shirt printing', 'personalized shirts', 'print your design', 'event t shirts', 'company t shirts', 'design your shirt', 'bulk t shirt printing', 'custom apparel']
+
+SBERT categories:
+['Style & Fashion: Accessories', 'Shopping: Contests & Freebies', 'Style & Fashion: Clothing', 'Hobbies & Interests: Arts & Crafts', 'Business: Advertising']
+
+Mixed BERT categories:
+['Style & Fashion, Clothing', 'Style & Fashion, Accessories', 'Style & Fashion, Fashion', 'Business, Advertising', 'Health & Fitness, Men\x19 s Health']
+
+Multi-label IAB classifier categories:
+['business', 'fashion', 'autos', 'tech', 'health']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Style & Fashion: Clothing', 'Style & Fashion: Accessories', 'Shopping: Comparison', 'Shopping: Engines', 'Shopping: Contests & Freebies']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Style & Fashion: Clothing', 'Shopping', 'Business: Marketing', 'Business: Advertising']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Style & Fashion: Clothing', 'Style & Fashion: Fashion', 'Style & Fashion: Accessories', 'Business: Advertising', 'Business: Marketing']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Style & Fashion: Clothing', 'Style & Fashion: Fashion', 'Technology & Computing: Desktop Publishing', 'Business: Advertising', 'Business: Marketing']
+
+====================================================================================================
+Campaign: Premium Noise Cancelling Headphones
+Description: Advertising the latest wireless noise-cancelling headphones for audiophiles and tech enthusiasts.
+Keywords: ['wireless headphones', 'noise cancelling', 'Bluetooth headphones', 'over ear headphones', 'best headphones', 'music headphones', 'headphone deals', 'active noise cancelling', 'premium headphones', 'headphone sale']
+
+SBERT categories:
+[]
+
+Mixed BERT categories:
+['Technology & Computing, MP3/MIDI', 'Home & Garden, Home Theater', 'Technology & Computing, Portable', 'Hobbies & Interests, Radio', 'Technology & Computing, Cell Phones']
+
+Multi-label IAB classifier categories:
+['business', 'sports', 'hobbies', 'tech', 'autos']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Technology & Computing: Audio Equipment', 'Technology & Computing: Consumer Electronics', 'Technology & Computing: Music & Audio', 'Technology & Computing: Wireless Technology', 'Home & Garden: Electronics']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Arts & Entertainment: Music', 'Technology & Computing: Entertainment', 'Shopping']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Health & Fitness']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Health & Fitness: Deafness']
+
+====================================================================================================
+Campaign: Organic Skincare Essentials
+Description: Promoting a range of natural and organic skincare products for all skin types.
+Keywords: ['organic skincare', 'natural face cream', 'herbal moisturizer', 'eco friendly skincare', 'vegan beauty products', 'cruelty free lotion', 'best organic face wash', 'natural serum', 'plant based skincare', 'organic body butter', 'skincare for sensitive skin']
+
+SBERT categories:
+['Health & Fitness: Dermatology', 'Food & Drink: Vegan', 'Food & Drink', 'Health & Fitness: Alternative Medicine', 'Food & Drink: Vegetarian']
+
+Mixed BERT categories:
+['Health & Fitness, Dermatology', 'Style & Fashion, Beauty', 'Travel, Spas', 'Style & Fashion, Body Art', 'Health & Fitness, Nutrition']
+
+Multi-label IAB classifier categories:
+['business', 'health', 'fashion', 'tech', 'food']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Health & Fitness: Alternative Medicine', 'Health & Fitness: Nutrition', "Health & Fitness: Women's Health", 'Health & Fitness: Skin Care', 'Health & Fitness: Beauty']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Style & Fashion: Beauty', 'Health & Fitness: Dermatology']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Health & Fitness: Dermatology', 'Health & Fitness: Alternative Medicine', 'Health & Fitness: Herbs for Health', 'Food & Drink: Vegan', 'Health & Fitness']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Style & Fashion: Beauty', 'Health & Fitness: Dermatology', 'Health & Fitness: Holistic Healing', 'Health & Fitness: Herbs for Health', 'Health & Fitness: Allergies']
+
+====================================================================================================
+Campaign: Digital Marketing Online Courses
+Description: Targeting professionals interested in learning digital marketing skills through online courses.
+Keywords: ['digital marketing course', 'SEO training', 'learn Google Ads', 'social media marketing', 'online marketing classes', 'PPC course', 'content marketing course', 'email marketing training', 'marketing certification online', 'internet marketing course']
+
+SBERT categories:
+['Business: Marketing', 'Education: Studying Business', 'Business: Advertising']
+
+Mixed BERT categories:
+['Business, Marketing', 'Business, Human Resources', 'Business, Government', 'Education, Studying Business', 'Personal Finance, Options']
+
+Multi-label IAB classifier categories:
+['tech', 'business', 'education', 'hobbies', 'society']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Business: Marketing', 'Technology & Computing: Internet Technology', 'Technology & Computing: Web Design/HTML', 'Business: Advertising', 'Technology & Computing: Computer Reviews']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Education: Distance Learning', 'Business: Marketing', 'Education', 'Education: Studying Business', 'Business']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Education: Studying Business', 'Business: Marketing', 'Education: Adult Education', 'Education: College Life', 'Business: Advertising']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Business: Marketing', 'Business: Advertising', 'Education: Distance Learning', 'Education: Adult Education', 'Technology & Computing: Web Search']
+
+====================================================================================================
+Campaign: EcoSmart Home Appliances
+Description: Showcasing energy efficient and environmentally friendly home appliances.
+Keywords: ['energy efficient fridge', 'eco smart washing machine', 'low energy dishwasher', 'green home appliances', 'smart thermostat', 'solar water heater', 'appliance energy rating', 'environmentally friendly oven', 'sustainable appliances']
+
+SBERT categories:
+['Business: Green Solutions', 'Home & Garden: Appliances', 'Home & Garden: Home Repair', 'Home & Garden: Entertaining', 'Home & Garden: Gardening']
+
+Mixed BERT categories:
+['Home & Garden, Home Repair', 'Home & Garden, Environmental Safety', 'Home & Garden, Remodeling & Construction', 'Real Estate, Apartments', 'Home & Garden, Appliances']
+
+Multi-label IAB classifier categories:
+['business', 'tech', 'home', 'education', 'hobbies']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Home & Garden: Environmental Safety', 'Home & Garden: Appliances', 'Home & Garden: Gardening', 'Business: Green Solutions', 'Health & Fitness: Environmental Health']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Home & Garden: Appliances', 'Business: Green Solutions', 'Home & Garden: Environmental Safety']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Home & Garden: Appliances', 'Home & Garden: Environmental Safety', 'Home & Garden', 'Green Solutions']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Home & Garden: Appliances', 'Home & Garden: Environmental Safety', 'Business: Green Solutions']
+
+====================================================================================================
+Campaign: Summer Adventure Travel Packages
+Description: Promoting all-inclusive summer travel and adventure packages for families and thrill seekers.
+Keywords: ['summer travel deals', 'adventure vacation', 'family holiday package', 'beach getaway', 'all inclusive travel', 'rafting trips', 'guided hiking tours', 'adventure travel 2024', 'outdoor adventure holiday', 'summer flight deals', 'travel package discounts', 'vacation tours']
+
+SBERT categories:
+['Travel: Theme Parks', 'Travel: Adventure Travel', 'Travel: Budget Travel', 'Travel: Honeymoons/Getaways', 'Travel: Cruises']
+
+Mixed BERT categories:
+['Travel, Adventure Travel', 'Travel, By US Locale', 'Travel, Budget Travel', 'Travel, Mexico & Central America', 'Travel, Africa']
+
+Multi-label IAB classifier categories:
+['travel', 'hobbies', 'autos', 'arts', 'sports']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Travel: Adventure Travel', 'Travel: Outdoor Recreation', 'Travel: Family Travel', 'Travel: Beaches', 'Travel: Travel Deals']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Travel', 'Travel: Adventure Travel', 'Travel: Traveling with Kids', 'Travel: Hotels', 'Travel: Honeymoons/Getaways']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Travel: Adventure Travel', 'Travel: National Parks', 'Travel: Camping', 'Travel: Traveling with Kids', 'Travel']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Travel: Adventure Travel', 'Travel: Traveling with Kids', 'Travel: Honeymoons/Getaways', 'Travel: Caribbean', 'Travel: Budget Travel']
+
+====================================================================================================
+Campaign: Eco-Friendly Kitchen Products
+Description: Promotes sustainable and environmentally-friendly kitchenware such as bamboo utensils, reusable food wraps, and compostable dish sponges.
+Keywords: ['eco kitchenware', 'bamboo utensils', 'sustainable kitchen', 'compostable sponges', 'reusable food wraps', 'green cookware', 'zero waste kitchen', 'environmentally friendly utensils', 'plastic free kitchen']
+
+SBERT categories:
+['Home & Garden: Appliances', 'Business: Green Solutions', 'Home & Garden', 'Home & Garden: Gardening', 'Food & Drink: Desserts & Baking']
+
+Mixed BERT categories:
+['Home & Garden, Home Repair', 'Home & Garden, Environmental Safety', 'Hobbies & Interests, Woodworking', 'Home & Garden, Remodeling & Construction', 'Health & Fitness, Nutrition']
+
+Multi-label IAB classifier categories:
+['food', 'home', 'business', 'fashion', 'hobbies']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Home & Garden: Environmental Safety', 'Home & Garden: Gardening', 'Health & Fitness: Nutrition', 'Health & Fitness: Weight Loss', 'Home & Garden: Entertaining']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Home & Garden: Environmental Safety', 'Home & Garden', 'Home & Garden: Appliances', 'Business: Green Solutions']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Home & Garden: Home Repair', 'Home & Garden: Environmental Safety', 'Home & Garden: Gardening', 'Food & Drink: Vegetarian', 'Home & Garden: Interior Decorating']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Business: Green Solutions', 'Home & Garden: Environmental Safety', 'Home & Garden: Appliances']
+
+====================================================================================================
+Campaign: Online Coding Bootcamp
+Description: Advertises a virtual coding bootcamp offering intensive programming courses in web development, data science, and app development.
+Keywords: ['coding bootcamp', 'learn programming', 'web development course', 'online coding classes', 'data science bootcamp', 'python classes', 'java programming', 'front end development', 'full stack bootcamp', 'javascript course', 'app development course', 'virtual coding bootcamp', 'software engineering course']
+
+SBERT categories:
+['Technology & Computing: Web Design/HTML', 'Technology & Computing: Net for Beginners', 'Careers: College', 'Technology & Computing: Java', 'Technology & Computing: Computer Certification']
+
+Mixed BERT categories:
+['Technology & Computing, JavaScript', 'Business, Business Software', 'Technology & Computing, Java', 'Technology & Computing, Shareware/Freeware', 'Technology & Computing, Graphics Software']
+
+Multi-label IAB classifier categories:
+['tech', 'education', 'business', 'hobbies', 'sports']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Technology & Computing: Computer Certification', 'Technology & Computing: Computer Networking', 'Technology & Computing: Computer Peripherals', 'Technology & Computing: Desktop Video', 'Technology & Computing: Internet Technology']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Technology & Computing: Java', 'Technology & Computing: JavaScript', 'Technology & Computing: Web Design/HTML', 'Education: Distance Learning', 'Education']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Technology & Computing: Java', 'Technology & Computing: JavaScript', 'Technology & Computing: Web Design/HTML', 'Education: Distance Learning', 'Technology & Computing: Web Search']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Technology & Computing: Web Design/HTML', 'Technology & Computing: JavaScript', 'Technology & Computing: Java', 'Technology & Computing: C/C++', 'Education: Distance Learning']
+
+====================================================================================================
+Campaign: Luxury Dog Beds
+Description: Showcases high-end, comfortable, and stylish dog beds for pet owners seeking premium products for their dogs.
+Keywords: ['luxury dog beds', 'premium dog bed', 'orthopedic pet bed', 'stylish dog beds', 'best dog beds', 'memory foam dog bed']
+
+SBERT categories:
+['Pets: Dogs', 'Pets: Large Animals']
+
+Mixed BERT categories:
+['Pets, Dogs', 'Pets, Large Animals', 'Pets, Veterinary Medicine', 'Pets, Cats', 'Automotive, Off-Road Vehicles']
+
+Multi-label IAB classifier categories:
+['education', 'business', 'home', 'society', 'hobbies']
+
+LLM categories (Llama, model: Llama-3.1-8B): ['Hobbies & Interests: Pets', 'Health & Fitness: Pets: Veterinary Medicine', 'Business: Pet Care & Products', 'Home & Garden: Pets & Animals', 'Family & Parenting: Family Internet: Pet Care & Products']
+
+LLM categories (OpenAI, model: gpt-5-nano):
+['Pets', 'Pets: Dogs', 'Shopping']
+
+Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
+['Pets: Dogs', 'Pets', 'Home & Garden: Interior Decorating', 'Automotive: Luxury']
+
+Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+['Pets: Dogs', 'Home & Garden: Interior Decorating', 'Pets']
+
+====================================================================================================

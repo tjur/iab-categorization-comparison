@@ -34,13 +34,15 @@ The specific logic can be found in [category.py](src/categories.py) file.
 
 Uses [sentence-transformers](https://sbert.net/) Python library with the `all-mpnet-base-v2` model
 ([available models](https://sbert.net/docs/sentence_transformer/pretrained_models.html#original-models))
-to create vector representations (embeddings) for both IAB categories and campaign keywords. Cosine similarity is then used to identify which categories most closely align with the keywords.
+to create vector representations (embeddings) for both IAB categories and campaign keywords.
+Cosine similarity is then used to identify which categories most closely align with the keywords.
 
 ### Mixed BERT model
 
 Employs a pre-trained BERT-based
 [classification model](https://huggingface.co/PavanDeepak/text-classification-model-iab-categories-mixed-bert-base-uncased),
-specifically fine-tuned for IAB category classification. Uses Hugging Face's text classification pipeline for direct category prediction.
+specifically fine-tuned for IAB category classification.
+Uses Hugging Face's text classification pipeline for direct category prediction.
 
 At the moment of writing, it was the most popular model related to IAB classification
 available on Hugging Face.
@@ -77,3 +79,6 @@ is available in [test_data.py](src/test_data.py) file along with an LLM prompt
 used for its generation.
 
 ## Results
+
+Sample results of running implemented solutions on the test data
+can be found in [test_results.txt](test_results.txt) file.
