@@ -3,7 +3,8 @@
 from contextlib import contextmanager
 import logging
 from typing import Generator
-from openai import BaseModel, OpenAI, OpenAIError
+from openai import OpenAI, OpenAIError
+from pydantic import BaseModel
 import torch
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, utils
@@ -46,7 +47,7 @@ class Embedder:
         """
         Get IAB categories matching the text using Sentence-BERT model.
         It calculates cosine similarity between the text and each category name using SBERT embeddings.
-        Return list of tuples (category name, similarity score) sorted by similarity score in descending order.
+        Returns list of tuples (category name, similarity score) sorted by similarity score in descending order.
         """
         keyword_embedding = self.get_embedding(text)
         similarities = util.cos_sim(keyword_embedding, self.category_embeddings)
@@ -66,7 +67,7 @@ class Embedder:
 @contextmanager
 def get_llm_client(
     api_key: str,
-    base_url: str,
+    base_url: str | None = None,
 ) -> Generator[OpenAI, None, None]:
     """Get LLM client."""
     client = OpenAI(api_key=api_key, base_url=base_url)

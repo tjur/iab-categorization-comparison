@@ -15,11 +15,11 @@ if __name__ == "__main__":
     with (
         get_llm_client(
             api_key=os.getenv("OPENAI_API_KEY", ""),
-            base_url=os.getenv("OPENAI_BASE_URL", ""),
+            base_url=os.getenv("OPENAI_BASE_URL", None),
         ) as openai_client,
         get_llm_client(
             api_key=os.getenv("LLAMA_API_KEY", ""),
-            base_url=os.getenv("LLAMA_BASE_URL", ""),
+            base_url=os.getenv("LLAMA_BASE_URL", None),
         ) as llama_client,
     ):
         for data in TEST_DATA:
@@ -28,33 +28,38 @@ if __name__ == "__main__":
             print(f"Keywords: {data['keywords']}\n")
 
             keywords = ", ".join(data["keywords"])
-            categories_sbert = embedder.get_matching_categories(
+            categories_sbert_with_score = embedder.get_matching_categories(
                 keywords, num=5, similarity_threshold=0.3
             )
-            print(f"SBERT categories: {categories_sbert}\n")
+            categories_sbert = [category for category, _ in categories_sbert_with_score]
+            print(f"SBERT categories:\n{categories_sbert}\n")
 
             # model:
             # https://huggingface.co/PavanDeepak/text-classification-model-iab-categories-mixed-bert-base-uncased
-            categories_mixed_bert = get_matching_categories_classification_model(
+            categories_mixed_bert_with_score = get_matching_categories_classification_model(
                 keywords,
                 model_name="PavanDeepak/text-classification-model-iab-categories-mixed-bert-base-uncased",
                 num=5,
             )
-
-            print(f"Mixed BERT categories: {categories_mixed_bert}\n")
+            categories_mixed_bert = [
+                category for category, _ in categories_mixed_bert_with_score
+            ]
+            print(f"Mixed BERT categories:\n{categories_mixed_bert}\n")
 
             # model:
             # https://huggingface.co/Mozilla/content-multilabel-iab-classifier
-            categories_multilabel_classifier = (
+            categories_multilabel_classifier_with_score = (
                 get_matching_categories_classification_model(
                     keywords,
                     model_name="Mozilla/content-multilabel-iab-classifier",
                     num=5,
                 )
             )
-
+            categories_multilabel_classifier = [
+                category for category, _ in categories_multilabel_classifier_with_score
+            ]
             print(
-                f"Multilabel classifier categories: {categories_multilabel_classifier}\n"
+                f"Multi-label IAB classifier categories:\n{categories_multilabel_classifier}\n"
             )
 
             llama_model_name = os.getenv("LLAMA_MODEL_NAME", "")
@@ -64,9 +69,7 @@ if __name__ == "__main__":
                 llama_model_name,
                 CATEGORY_NAMES,
             )
-            print(
-                f"LLM categories (Llama, model: {llama_model_name}): {categories_llama}\n"
-            )
+            print(f"LLM categories (Llama, model: Llama-3.1-8B): {categories_llama}\n")
 
             openai_model_name = os.getenv("OPENAI_MODEL_NAME", "")
             categories_openai = get_matching_categories_llm(
@@ -76,7 +79,7 @@ if __name__ == "__main__":
                 CATEGORY_NAMES,
             )
             print(
-                f"LLM categories (OpenAI, model: {openai_model_name}): "
+                f"LLM categories (OpenAI, model: {openai_model_name}):\n"
                 f"{categories_openai}\n"
             )
 
@@ -86,10 +89,10 @@ if __name__ == "__main__":
                 llama_client,
                 llama_model_name,
                 sbert_num=20,
-                similarity_threshold=0.3,
+                similarity_threshold=0.2,
             )
             print(
-                f"Hybrid, SBERT + LLM categories (Llama, model: {llama_model_name}): "
+                f"Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):\n"
                 f"{categories_sbert_llama}\n"
             )
 
@@ -99,10 +102,10 @@ if __name__ == "__main__":
                 openai_client,
                 openai_model_name,
                 sbert_num=20,
-                similarity_threshold=0.3,
+                similarity_threshold=0.2,
             )
             print(
-                f"Hybrid, SBERT + LLM categories (OpenAI, model: {openai_model_name}): "
+                f"Hybrid, SBERT + LLM categories (OpenAI, model:{openai_model_name}):\n"
                 f"{categories_sbert_openai}\n"
             )
 
