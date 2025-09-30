@@ -19,7 +19,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Technology & Computing: Portable', 'Technology & Computing: Computer Peripherals', 'Technology & Computing: Entertainment', 'Technology & Computing: Internet Technology', 'Technology & Computing: Computer Reviews']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Technology & Computing: Portable', 'Technology & Computing: Windows', 'Technology & Computing: Computer Reviews']
 
 ====================================================================================================
@@ -44,7 +44,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Health & Fitness: Dermatology', 'Health & Fitness: Herbs for Health']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Style & Fashion: Beauty', 'Health & Fitness: Dermatology', 'Health & Fitness: Herbs for Health', 'Health & Fitness: Alternative Medicine']
 
 ====================================================================================================
@@ -69,7 +69,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Health & Fitness: Exercise', 'Health & Fitness: Physical Therapy', 'Health & Fitness: Weight Loss', 'Health & Fitness: Alternative Medicine', 'Sports']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Sports: Running/Jogging', 'Sports: Bodybuilding', 'Health & Fitness: Exercise', 'Health & Fitness: Weight Loss', 'Health & Fitness']
 
 ====================================================================================================
@@ -94,7 +94,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Pets', 'Pets: Dogs', 'Pets: Cats', 'Pets: Veterinary Medicine', 'Pets: Aquariums']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Pets: Dogs', 'Pets: Cats', 'Food & Drink', 'Pets', 'Home & Garden']
 
 ====================================================================================================
@@ -119,7 +119,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Style & Fashion: Clothing', 'Style & Fashion: Fashion', 'Style & Fashion: Accessories', 'Business: Advertising', 'Business: Marketing']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Style & Fashion: Clothing', 'Style & Fashion: Fashion', 'Technology & Computing: Desktop Publishing', 'Business: Advertising', 'Business: Marketing']
 
 ====================================================================================================
@@ -144,7 +144,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Health & Fitness']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Health & Fitness: Deafness']
 
 ====================================================================================================
@@ -169,7 +169,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Health & Fitness: Dermatology', 'Health & Fitness: Alternative Medicine', 'Health & Fitness: Herbs for Health', 'Food & Drink: Vegan', 'Health & Fitness']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Style & Fashion: Beauty', 'Health & Fitness: Dermatology', 'Health & Fitness: Holistic Healing', 'Health & Fitness: Herbs for Health', 'Health & Fitness: Allergies']
 
 ====================================================================================================
@@ -194,7 +194,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Education: Studying Business', 'Business: Marketing', 'Education: Adult Education', 'Education: College Life', 'Business: Advertising']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Business: Marketing', 'Business: Advertising', 'Education: Distance Learning', 'Education: Adult Education', 'Technology & Computing: Web Search']
 
 ====================================================================================================
@@ -219,7 +219,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Home & Garden: Appliances', 'Home & Garden: Environmental Safety', 'Home & Garden', 'Green Solutions']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Home & Garden: Appliances', 'Home & Garden: Environmental Safety', 'Business: Green Solutions']
 
 ====================================================================================================
@@ -244,7 +244,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Travel: Adventure Travel', 'Travel: National Parks', 'Travel: Camping', 'Travel: Traveling with Kids', 'Travel']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Travel: Adventure Travel', 'Travel: Traveling with Kids', 'Travel: Honeymoons/Getaways', 'Travel: Caribbean', 'Travel: Budget Travel']
 
 ====================================================================================================
@@ -269,7 +269,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Home & Garden: Home Repair', 'Home & Garden: Environmental Safety', 'Home & Garden: Gardening', 'Food & Drink: Vegetarian', 'Home & Garden: Interior Decorating']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Business: Green Solutions', 'Home & Garden: Environmental Safety', 'Home & Garden: Appliances']
 
 ====================================================================================================
@@ -294,7 +294,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Technology & Computing: Java', 'Technology & Computing: JavaScript', 'Technology & Computing: Web Design/HTML', 'Education: Distance Learning', 'Technology & Computing: Web Search']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Technology & Computing: Web Design/HTML', 'Technology & Computing: JavaScript', 'Technology & Computing: Java', 'Technology & Computing: C/C++', 'Education: Distance Learning']
 
 ====================================================================================================
@@ -319,7 +319,7 @@ LLM categories (OpenAI, model: gpt-5-nano):
 Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):
 ['Pets: Dogs', 'Pets', 'Home & Garden: Interior Decorating', 'Automotive: Luxury']
 
-Hybrid, SBERT + LLM categories (OpenAI, model:gpt-5-nano):
+Hybrid, SBERT + LLM categories (OpenAI, model: gpt-5-nano):
 ['Pets: Dogs', 'Home & Garden: Interior Decorating', 'Pets']
 
 ====================================================================================================

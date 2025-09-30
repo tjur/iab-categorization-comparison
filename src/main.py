@@ -69,7 +69,9 @@ if __name__ == "__main__":
                 llama_model_name,
                 CATEGORY_NAMES,
             )
-            print(f"LLM categories (Llama, model: Llama-3.1-8B): {categories_llama}\n")
+            print(
+                f"LLM categories (Llama, model: {llama_model_name}): {categories_llama}\n"
+            )
 
             openai_model_name = os.getenv("OPENAI_MODEL_NAME", "")
             categories_openai = get_matching_categories_llm(
@@ -92,7 +94,7 @@ if __name__ == "__main__":
                 similarity_threshold=0.2,
             )
             print(
-                f"Hybrid, SBERT + LLM categories (Llama, model: Llama-3.1-8B):\n"
+                f"Hybrid, SBERT + LLM categories (Llama, model: {llama_model_name}):\n"
                 f"{categories_sbert_llama}\n"
             )
 
@@ -105,7 +107,7 @@ if __name__ == "__main__":
                 similarity_threshold=0.2,
             )
             print(
-                f"Hybrid, SBERT + LLM categories (OpenAI, model:{openai_model_name}):\n"
+                f"Hybrid, SBERT + LLM categories (OpenAI, model: {openai_model_name}):\n"
                 f"{categories_sbert_openai}\n"
             )
 
